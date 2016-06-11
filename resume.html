@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <style type="text/css">
+        /* Custom Styles */
+        
+        ul.nav-tabs {
+            width: 140px;
+            margin-top: 20px;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+            box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+        }
+        
+        ul.nav-tabs li {
+            margin: 0;
+            border-top: 1px solid #ddd;
+        }
+        
+        ul.nav-tabs li:first-child {
+            border-top: none;
+        }
+        
+        ul.nav-tabs li a {
+            margin: 0;
+            padding: 8px 16px;
+            border-radius: 0;
+        }
+        
+        ul.nav-tabs li.active a,
+        ul.nav-tabs li.active a:hover {
+            color: #fff;
+            background: #0088cc;
+            border: 1px solid #0088cc;
+        }
+        
+        ul.nav-tabs li:first-child a {
+            border-radius: 4px 4px 0 0;
+        }
+        
+        ul.nav-tabs li:last-child a {
+            border-radius: 0 0 4px 4px;
+        }
+        
+        ul.nav-tabs.affix {
+            top: 30px;
+            /* Set the top position of pinned element */
+        }
+        
+        .jumbotron h1 {
+            text-align: center;
+            font-size: 30px;
+            font-weight: 800;
+            width: 100%;
+            line-height: 100px;
+            color: #fff;
+            background: blue;
+        }
+    </style>
+</head>
+
+<body data-spy="scroll" data-target="#myScrollspy">
+    <div class="container">
+        <div class="jumbotron">
+            <h1>戚亚楠个人简历</h1>
+        </div>
+        <div class="row">
+            <div class="col-xs-3" id="myScrollspy">
+                <ul class="nav nav-tabs nav-stacked" data-spy="affix" data-offset-top="125">
+                    <li class="active"><a href="#section-1">个人信息</a></li>
+                    <li><a href="#section-2">求职意向</a></li>
+                    <li><a href="#section-3">自我评价</a></li>
+                    <li><a href="#section-4">自我评价</a></li>
+                    <li><a href="#section-5">项目经验</a></li>
+                    <li><a href="#section-6">教育经历</a></li>
+
+                </ul>
+            </div>
+            <div class="col-xs-9">
+                <h2 id="section-1">个人信息</h2>
+                <p>女|1994年12月生| 户口：河北-承德| 现居住于:北京</p>
+                <p>2年工作经验 </p>
+                <p>电话：13161254856</p>
+                <p>E-mail：mrs_qyn@163.com</p>
+                <hr>
+                <h2 id="section-2">求职意向</h2>
+                <p>工作性质：全职</p>
+                <p>期望职业：WEB前端开发、</p>
+                <p>期望行业：互联网/电子商务</p>
+                <p>工作地区：北京</p>
+                <p>期望月薪：15000-25000元/月</p>
+                <p>目前状况：我目前处于离职状态，可立即上岗</p>
+                <hr>
+                <h2 id="section-3">自我评价</h2>
+                <p>1.熟练使用div+css开发符合web标准的pc项目。</p>
+                <p>2.熟练使用HTML5+CSS3开发移动端项目（含微信端）。</p>
+                <p>2.熟练使用HTML5+CSS3开发移动端项目（含微信端）。</p>
+                <p>4.熟练使用Zepto,jQuery快速完成移动端交互，并对可复用的功能进行插件封装。</p>
+                <p>5.熟练使用bootstrap并实现响应式网站的开发。</p>
+                <p>6.熟练使用less/sass预处理器，快速开发css，提高开发效率。</p>
+                <p>7.熟练使用iscroll，并实现移动端固定区域的内容滚动。</p>
+                <p>8.熟悉swiper、echarts、mobiscroll、jQuery WeUI等插件,快速构建移动端功能，提高开发效率。</p>
+                <p>9.熟悉自动化构建工具grunt、gulp等.并完成前端代码的压缩，合并等。</p>
+                <p>10.熟悉svn,git版本控制工具，实现对项目的团队协作开发。</p>
+                <p>11.熟练掌握ajax并完成与后台数据接口的请求与数据渲染。</p>
+                <p>12.本人性格开朗，工作积极，喜欢钻研新技术，例如：node.js、angular.js。平时喜欢阅读，爬山等。</p>
+                <hr>
+                <h2 id="section-4">工作经历</h2>
+                <p>2014/06 -- 2015/07</p>
+                <p>北京爱街网络科技有限公司|WEB前端开发</p>
+                <p>行业类别： 互联网/电子商务|职位月薪：10001-15000元/月</p>
+                <p>工作描述：前期做的pc端页面排版，后期做的移动端页面</p>
+                <hr>
+                <h2 id="section-5">项目经验</h2>
+                <p>Nam eget purus nec est consectetur vehicula. Nullam ultrices nisl risus, in viverra libero egestas sit amet. Etiam porttitor dolor non eros pulvinar malesuada. Vestibulum sit amet est mollis nulla tempus aliquet. Praesent luctus hendrerit arcu non laoreet. Morbi consequat placerat magna, ac ornare odio sagittis sed. Donec vitae ullamcorper purus. Vivamus non metus ac justo porta volutpat.</p>
+                <p>Vivamus mattis accumsan erat, vel convallis risus pretium nec. Integer nunc nulla, viverra ut sem non, scelerisque vehicula arcu. Fusce bibendum convallis augue sit amet lobortis. Cras porta urna turpis, sodales lobortis purus adipiscing id. Maecenas ullamcorper, turpis suscipit pellentesque fringilla, massa lacus pulvinar mi, nec dignissim velit arcu eget purus. Nam at dapibus tellus, eget euismod nisl. Ut eget venenatis sapien. Vivamus vulputate varius mauris, vel varius nisl facilisis ac. Nulla aliquet justo a nibh ornare, eu congue neque rutrum.</p>
+                <p>Suspendisse a orci facilisis, dignissim tortor vitae, ultrices mi. Vestibulum a iaculis lacus. Phasellus vitae convallis ligula, nec volutpat tellus. Vivamus scelerisque mollis nisl, nec vehicula elit egestas a. Sed luctus metus id mi gravida, faucibus convallis neque pretium. Maecenas quis sapien ut leo fringilla tempor vitae sit amet leo. Donec imperdiet tempus placerat. Pellentesque pulvinar ultrices nunc sed ultrices. Morbi vel mi pretium, fermentum lacus et, viverra tellus. Phasellus sodales libero nec dui convallis, sit amet fermentum sapien auctor. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed eu elementum nibh, quis varius libero.</p>
+                <p>Morbi sed fermentum ipsum. Morbi a orci vulputate tortor ornare blandit a quis orci. Donec aliquam sodales gravida. In ut ullamcorper nisi, ac pretium velit. Vestibulum vitae lectus volutpat, consequat lorem sit amet, pulvinar tellus. In tincidunt vel leo eget pulvinar. Curabitur a eros non lacus malesuada aliquam. Praesent et tempus odio. Integer a quam nunc. In hac habitasse platea dictumst. Aliquam porta nibh nulla, et mattis turpis placerat eget. Pellentesque dui diam, pellentesque vel gravida id, accumsan eu magna. Sed a semper arcu, ut dignissim leo.</p>
+                <p>Sed vitae lobortis diam, id molestie magna. Aliquam consequat ipsum quis est dictum ultrices. Aenean nibh velit, fringilla in diam id, blandit hendrerit lacus. Donec vehicula rutrum tellus eget fermentum. Pellentesque ac erat et arcu ornare tincidunt. Aliquam erat volutpat. Vivamus lobortis urna quis gravida semper. In condimentum, est a faucibus luctus, mi dolor cursus mi, id vehicula arcu risus a nibh. Pellentesque blandit sapien lacus, vel vehicula nunc feugiat sit amet.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
